@@ -1,10 +1,12 @@
 # Prompt para colar no Claude Code
 
-Clone este repositório, abra o Claude Code dentro da pasta e cole o texto abaixo.
+Abra o Claude Code em qualquer pasta e cole o texto abaixo. Ele mesmo baixa o kit.
 
 ---
 
-Quero montar meu requerimento de **Atividades Complementares** do IFNMG Campus Montes Claros e enviar num PDF único. Responda em português, tom direto. Use os arquivos desta pasta:
+Quero montar meu requerimento de **Atividades Complementares** do IFNMG Campus Montes Claros e enviar num PDF único. Responda em português, tom direto.
+
+**Passo 0 — baixar o kit.** Na minha pasta Documentos, rode `git clone https://github.com/Oikky/atividades-complementares-ifnmg` (se a pasta já existir, entre nela e rode `git pull`). Se não tiver git, baixe https://github.com/Oikky/atividades-complementares-ifnmg/archive/refs/heads/main.zip e extraia. Instale o que faltar para trabalhar com .docx e PDF (`pip install python-docx pypdf`). Trabalhe dentro dessa pasta e use estes arquivos:
 
 - `MOLDE - Requerimento Atividades Complementares (Edificacoes Integrado).docx` — o formulário já formatado em .docx (Folha 1 + ANEXO 01 + ANEXO 02), em branco. Preencha com python-docx, sem mudar a estrutura.
 - `Formulario original (em branco).doc` — modelo oficial, só para conferência.
